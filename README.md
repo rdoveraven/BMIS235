@@ -5,7 +5,7 @@ Novo Website
 
 Allocation of Content:<br /> 
 Web Page                          Coder(s)<br /> 
-HomePage.html (Starting page)        Riley <br />       
+index.html (Starting page)        Riley <br />       
 Store.html (Product List)         Sarah <br /> 
 Cart.html                           Riley<br /> 
 Checkout.html (Including shipping calculation)            Sarah/Megan <br /> 
