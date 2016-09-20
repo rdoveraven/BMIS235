@@ -25,10 +25,8 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-65160314-1', 'auto');
   ga('send', 'pageview');
-
 </script>
     
 </head> 	
@@ -62,7 +60,6 @@
         	padding-left: 1px;
         	padding-right: 1px;
 	}
-
 	
 	.head-img{
 			  height: 50px;
@@ -81,16 +78,31 @@
 </style> 
 
 <div class="header" id="header">
-	 <div class="header" style="color: black; padding=0px;" >
+	 <div class="header" style="color: black; padding=0px;">
         <a href="http://barney.gonzaga.edu/~rdove/Novo/index.html" ><img src="http://barney.gonzaga.edu/~rdove/Novo/media/novo_logo.jpg" class="head-img"/></a>
-		<div class="nav_buttons" style="align: right;">
+		<div class="nav_buttons" align="right">
+			<div class="sm-md-lg hidden-xs"
 				<span><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/about-us.html"><button class="headbutton" type="button">About Us</button></a></span>
             	<span><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/contact-us.html"><button class="headbutton" type="button" >Contact Us</button></a></span>
 				<span><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/products.html"><button class="headbutton_store dropdown-toggle" type="button" ><b>Store</b></button></a></span>
-				
+			</div> 
+			<div class="xs visible-xs" id="nav_menu">
+	            <span><button onclick= "openMenu()" class="headbutton" type="button" id="Menu" style="padding-right: 10px;">Menu</button></span> 
+	            <ol id="menu-options" style="display:none;">
+	                <li><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/products.html">Store</a></li>
+	                <li><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/about-us.html">About Us</a></li>
+	                <li><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/contact-us.html">Contact Us</a></li>
+	            </ol>
+		</div> 
 		</div>
 	</div>
 </div>
+
+<script>
+function openMenu() {
+$("ol").toggle();
+}
+</script>
 </nav>
 	
 <body> 
