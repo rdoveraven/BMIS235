@@ -46,16 +46,16 @@
 		  max-height: 40px;
 		}	
 				
-		.nav_buttons{ 
+	.nav_buttons{ 
 		float: right;
 		margin-right: 15px;
 		padding: 5px;
 		 }
 		 
 	.header{
-			height: 50px;
-			background-color: black;
-			margin-right: calc(-1 * (100vw - 100%));
+		height: 50px;
+		background-color: black;
+		margin-right: calc(-1 * (100vw - 100%));
        		margin-left: auto;
         	padding-left: 1px;
         	padding-right: 1px;
@@ -76,6 +76,11 @@
 		  	padding-right: 15px;
 						}
 						
+	#menu-options{ 
+		background-color: black;
+		padding-right: 10px;
+	}
+						
 	#preload-01 { background: url(http://barney.gonzaga.edu/~rdove/Novo/media/novo_logo.jpg) no-repeat -9999px -9999px; }
 </style> 
 
@@ -87,8 +92,9 @@
 				<span><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/about-us.html"><button class="headbutton" type="button">About Us</button></a></span>
             	<span><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/contact-us.html"><button class="headbutton" type="button" >Contact Us</button></a></span>
 				<span><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/products.html"><button class="headbutton_store dropdown-toggle" type="button" ><b>Store</b></button></a></span>
-			</div> 
-			<div class="xs visible-xs" id="nav_menu">
+		</div> 
+		
+		<div class="xs visible-xs" id="nav_menu">
 	            <span><button onclick= "openMenu()" class="headbutton" type="button" id="Menu" style="padding-right: 10px;">Menu</button></span> 
 	            <ol id="menu-options" style="display:none;">
 	                <li><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/products.html">Store</a></li>
