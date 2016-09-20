@@ -121,6 +121,10 @@
 	  border: black;
 	   }
 	   
+	   #title{ 
+	   	padding:30px;
+	   	padding-bottom: 50px;}
+	   
 	   /*#information{
 		border-bottom: 1px solid black;
 		padding-bottom:2cm;
@@ -129,30 +133,11 @@
 		   
 	<div id="information" style="min-height: 1200px;">
 		<div class="mini-box">	   
-			<div class="row">
-			<br />
-			<br />
-			<br />
-			 <div class="retail" id="retail" align="center">
-			 	<div class="col-md-1 col-lg-1"></div>
-			 	<div class="hidden-xs hidden-sm col-md-2 col-lg-2">
-					<img src="http://barney.gonzaga.edu/~rdove/Novo/media/Black Printer.png" style="max-width: 80%;" />
-				</div> 
-			 	<div class="hidden-xs col-sm-4 col-md-2 col-lg-2">
-					<img src="http://barney.gonzaga.edu/~rdove/Novo/media/Blue Printer.png" style="max-width: 80%;" />
-				</div> 
-				<div class="col-sm-4 col-md-2 col-lg-2">
-					<img src="http://barney.gonzaga.edu/~rdove/Novo/media/Orange Printer.png" style="max-width: 80%;" />
-				</div> 
-				<div class="hidden-xs col-sm-4 col-md-2 col-lg-2">
-					<img src="http://barney.gonzaga.edu/~rdove/Novo/media/Green Printer.png" style="max-width: 80%;" />
-				</div> 
-				<div class="hidden-xs hidden-sm col-md-2 col-lg-2">
-					<img src="http://barney.gonzaga.edu/~rdove/Novo/media/Clear Printer.png" style="max-width: 80%;" />
-				</div> 
-				<div class="col-md-1 col-lg-1"></div>
-			 </div>
-		</div>
+			<div class="row" align="center">
+			  <h1 id="title">The Micro 3D Printer </h1>
+			 	<div class="col-sm-12 col-md-12 col-lg-12" align="center">
+			 		<img id="retail" src="http://barney.gonzaga.edu/~rdove/Novo/media/All5.PNG" style="max-width: 90%; max-height: 500px; padding-bottom: 50px;" />
+			</div>
 	
 	<style>
 	.description{
@@ -173,38 +158,28 @@
 
 	<div id="description">
 		 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" align="center">
-		 	 <h3>The Micro 3D Printer </h3></ br>
-		 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8"> 
-		 
-		 <br />
-		 <br />
-		 
-		 <p> The Micro 3D printer is the first truly consumer 3D printer. Some of the materials that the Micro can print with include PLA, ABS, ABS-R, 
-		 Tough, Chameleon, and Nylon. The Micro Retail Edition comes with one free spool of PLA filament, as well as an industry-leading 1 year warranty 
-		 to cover any issues that you may have. Purchasing from Novo Technology Solution, all warranty costs are covered and as soon as we receive your 
-		 printer, another will be sent to you in 1-2 business days. </p>
-		 <br />
+		 <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7"> 
+			 <p> The Micro 3D printer is the first truly consumer 3D printer. Some of the materials that the Micro can print with include PLA, ABS, ABS-R, 
+			 Tough, Chameleon, and Nylon. The Micro Retail Edition comes with one free spool of PLA filament, as well as an industry-leading 1 year warranty 
+			 to cover any issues that you may have. Purchasing from Novo Technology Solution, all warranty costs are covered and as soon as we receive your 
+			 printer, another will be sent to you in 1-2 business days. </p>
 		 </div>
-	<form action="addToCart">
-	 <div class="row" align="center">
-	 	<br />
-	 	<br /> 
-	 	<br /> 
-	 	
-		<div class="col-xs-12 col-sm-3 col-md-1 col-lg-1" id="quantity">
+	<form action="addToCart" class="col-sm-6 col-md-2 col-lg-2">
+	 <div class="row" align="center"> 
+	 	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="quantity">
 			<h4>Quantity</h4>
 		 	<select required>
     			<option value="1" selected="selected">1</option>
     			<option value="2">2</option>
     			<option value="3">3</option>
     			<option value="4">4</option>
-    			<option value="5+">5+</option>
+    			<option value="5">5</option>
 			</select>
 		</div>
-		<div class="col-xs-12 col-sm-3 col-md-1 col-lg-1">
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 			<h4>Color</h4>
 		 	<select name="color" id="picDD" required>
-    			<option value="" disabled="disabled" selected="selected"><!-- WHEN SELECTED, SHOW ALL COLORS-->
+    			<option value="" disabled="disabled" selected="selected">
    				<option value="1">Blue 
     			<option value="5">Green
     			<option value="3">Orange
@@ -215,6 +190,10 @@
 			</select>
 		</div>
 		</form>
+		<br /> 
+		<div id="atc" class="col-xs-12 col-sm-6 col-md-2 col-lg-2"> 
+			<button class="unibutton" align="right">Add To Cart </button> <!-- NEED TO CONNECT TO DB!!! --> 
+		 </div>
 		
 		<script> 
 		var pictureList = [
@@ -223,21 +202,14 @@
     "http://barney.gonzaga.edu/~rdove/Novo/media/Clear Printer.png",
     "http://barney.gonzaga.edu/~rdove/Novo/media/Orange Printer.png",
     "http://barney.gonzaga.edu/~rdove/Novo/media/White Printer.png",
-    "http://barney.gonzaga.edu/~rdove/Novo/media/Green Printer.png", ];
-
+    "http://barney.gonzaga.edu/~rdove/Novo/media/Green Printer.png",];
 $('#picDD').change(function () {
     var val = parseInt($('#picDD').val());
-    $('img').attr("src",pictureList[val]);
+    $('#retail').attr("src",pictureList[val]);
 });
 			</script>
-			
-		<div id="atc" class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-			<br /> 
-			<button class="unibutton" align="right">Add To Cart </button> <!-- NEED TO CONNECT TO DB!!! --> 
-		 </div>
-		 
 		</div>
-	 </div>
+		</div>
 	</div>
 </div>
 		
@@ -266,8 +238,6 @@ $('#picDD').change(function () {
 		 .footer_links{
 		 	text-align: right;
 		 	padding: 5px;
-		 	
-		 	
 		 }
 		  
 	   a{
@@ -292,9 +262,3 @@ $('#picDD').change(function () {
 	  </div>		
 	 </footer>  
 </html>
-
-
-
-
-
- 
