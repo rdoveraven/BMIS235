@@ -19,76 +19,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- END OF RELATIVE STYLESHEET-->
 
-<!-- START OF NAVIGATION BAR --> 
-	<nav>
-		<style> 
-	 	 .headbutton {
-		 	  color: #FF4500;
-   	 		  background-color: black; 
-			  font-size: 24px;
-			  padding-right: 5px;
-			  border: black;
-			  max-height: 45px;
-			}			
-			.nav_buttons{ 
-			float: right;
-			margin right: auto;
-			padding: 5px;
-			
-			 }  
-		.header{
-			height: 50px;
-			background-color: black;
-			margin-right: auto;
-       		margin-left: auto;
-        	padding-left: 1px;
-        	padding-right: 1px;
-		}
-
-		
-		.head-img{
-		  height: 50px;
-		  width: 100px;
-		  
-		}
-		
-		.headbutton_store{
-			color: #FF4500;
- 		  	background-color: black; 
-		  	font-size: 24px;
-		  	padding: 5px;
-		  	border: black;
-		  	max-height:40px;
-		  	padding-right: 15px;
-						}
-		
-	
-	</style> 
-	
-	<div class="header" id="header">
- 		 <div class="header" style="color: black; padding=0px;" >
-            <a href="http://barney.gonzaga.edu/~rdove/Novo/index.html" ><img src="http://barney.gonzaga.edu/~rdove/Novo/media/novo_logo.jpg" class="head-img"/></a>
-			<div class="nav_buttons" style="align: right;">
-            	<span><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/about-us.html"><button class="headbutton" type="button">About Us</button></a></span>
-            	<span><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/contact-us.html"><button class="headbutton" type="button" >Contact Us</button></a></span>
-				<span><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/products.html"><button class="headbutton_store" type="button" ><b>Store</b></button></a></span>
-				
-				<span>
-					<!-- <li class="dropdown button nav_buttons">
-                    <a class="dropdown-toggle headbutton_store" data-toggle="dropdown" href="#" aria-expanded="false">Store<p class="caret" /></a>
-                    <ul class="dropdown-menu" aria-labelledby="download">
-	                    <li><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/micro.html">The Micro 3D Printer</a></li>
-	                    <li><a href="/pro">Filaments</a></li>
-                     </ul> -->
-                </li>
-                </span> 
-        	</div>
-		</div>
-	</div>
-</nav>
-<!-- END NAVIGATION BAR -->
-
-
 
 <body> 
   <style> 
@@ -114,26 +44,25 @@
 			 <div class="retail" id="retail" align="center">
 			 	<div class="col-md-1 col-lg-1"></div>
 			 	<div class="hidden-xs hidden-sm col-md-2 col-lg-2">
-					<img src="http://barney.gonzaga.edu/~rdove/Novo/media/Black Printer.png" style="max-width: 90%;" />
+					<img src="http://barney.gonzaga.edu/~rdove/Novo/media/Black Printer.png" style="max-width: 80%;" />
 				</div> 
 			 	<div class="hidden-xs col-sm-4 col-md-2 col-lg-2">
-					<img src="http://barney.gonzaga.edu/~rdove/Novo/media/Blue Printer.png" style="max-width: 90%;" />
+					<img src="http://barney.gonzaga.edu/~rdove/Novo/media/Blue Printer.png" style="max-width: 80%;" />
 				</div> 
 				<div class="col-sm-4 col-md-2 col-lg-2">
-					<img src="http://barney.gonzaga.edu/~rdove/Novo/media/Orange Printer.png" style="max-width: 90%;" />
+					<img src="http://barney.gonzaga.edu/~rdove/Novo/media/Orange Printer.png" style="max-width: 80%;" />
 				</div> 
 				<div class="hidden-xs col-sm-4 col-md-2 col-lg-2">
-					<img src="http://barney.gonzaga.edu/~rdove/Novo/media/Green Printer.png" style="max-width: 90%;" />
+					<img src="http://barney.gonzaga.edu/~rdove/Novo/media/Green Printer.png" style="max-width: 80%;" />
 				</div> 
 				<div class="hidden-xs hidden-sm col-md-2 col-lg-2">
-					<img src="http://barney.gonzaga.edu/~rdove/Novo/media/Clear Printer.png" style="max-width: 90%;" />
+					<img src="http://barney.gonzaga.edu/~rdove/Novo/media/Clear Printer.png" style="max-width: 80%;" />
 				</div> 
 				<div class="col-md-1 col-lg-1"></div>
 			 </div>
 		</div>
 	
 	<style>
-
 	.description{
 		  float: right;
 		  max-width: 300px;
@@ -182,24 +111,33 @@
 		</div>
 		<div class="col-sm-1 col-md-1 col-lg-1">
 			<h4>Color</h4>
-		 	<select name="color" required>
+		 	<select name="color" id="picDD" required>
     			<option value="" disabled="disabled" selected="selected"><!-- WHEN SELECTED, SHOW ALL COLORS-->
-   				<option value="Blue">Blue <!-- WHEN SELECTED, ONLY SHOW BLUE-->
-    			<option value="Green">Green<!-- WHEN SELECTED, ONLY SHOW GREEN-->
-    			<option value="Orange">Orange<!-- WHEN SELECTED, ONLY SHOW ORANGE-->
-    			<option value="Black">Black<!-- WHEN SELECTED, ONLY SHOW BLACK-->
-    			<option value="White">White<!-- WHEN SELECTED, ONLY SHOW WHITE-->
-    			<option value="Clear">Clear<!-- WHEN SELECTED, ONLY SHOW CLEAR-->
+   				<option value="1">Blue 
+    			<option value="5">Green
+    			<option value="3">Orange
+    			<option value="0">Black
+    			<option value="4">White
+    			<option value="2">Clear
     				</option>
 			</select>
-			
-			<script> 
-			myFunction(addToCart);
-			
-			
-			</script>
 		</div>
 		</form>
+		
+		<script> 
+		var pictureList = [
+    "http://barney.gonzaga.edu/~rdove/Novo/media/Black Printer.png",
+    "http://barney.gonzaga.edu/~rdove/Novo/media/Blue Printer.png",
+    "http://barney.gonzaga.edu/~rdove/Novo/media/Clear Printer.png",
+    "http://barney.gonzaga.edu/~rdove/Novo/media/Orange Printer.png",
+    "http://barney.gonzaga.edu/~rdove/Novo/media/White Printer.png",
+    "http://barney.gonzaga.edu/~rdove/Novo/media/Green Printer.png", ];
+
+$('#picDD').change(function () {
+    var val = parseInt($('#picDD').val());
+    $('img').attr("src",pictureList[val]);
+});
+			</script>
 			
 		<div id="atc" class="col-sm-2 col-md-2 col-lg-2">
 			<br /> 
@@ -218,61 +156,4 @@
 
 
 
-  
-<footer> 
-	<style> 
-	   #footer{ 
-		   background-color: gray;
-		   padding: 0px;
-		   display: block;
-		   bottom: 0;
-		   width: 99%;
-		   height: 50px;
-	}
-	
-	   #novo_logo{
-	   	  height: 50px;
-		  width: 100px;
-		  padding-left: 5px;
-		  
-		  }
-		  
-		 .footer_links{
-		 	text-align: right;
-		 	padding: 5px;
-		 	
-		 	
-		 }
-		  
-	   .foot{
-		   font-size: 18px;
-		   padding: 10px;
-		   color: black;
-		   text-decoration: underline;		    
-	   }
-	</style> 
-	   
-<div id="footer"> 
-	 <div class="row"> 
-		<div class="col-sm-2 col-md-2 col-lg-2">
-		 <img src="http://barney.gonzaga.edu/~rdove/Novo/media/novo_logo.jpg" id="novo_logo" align="left" />
-		 </div>
-		<div id="footer_links" class="col-sm-10 col-md-10 col-lg-10" align="right"><br /> 
-			<a class="foot" href="http://barney.gonzaga.edu/~rdove/Novo">Home</a> &nbsp; 
-			<a class="foot" href="http://barney.gonzaga.edu/~rdove/Novo/pages/products.html">Products</a>  &nbsp;  
-			<a class="foot" href="http://barney.gonzaga.edu/~rdove/Novo/pages/contact-us.html">Contact Us</a> &nbsp;  &nbsp; 
-			</div> 
-		</div>
-	  </div>		
-	 </footer> 
-</html>
-
-
-
-
-
-
-
-
-
-
+ 
