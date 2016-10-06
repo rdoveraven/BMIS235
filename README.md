@@ -6,17 +6,17 @@ The code for the website is within the folders above. You can write your code di
 <br /> 
 
 Allocation of Content: <br /> 
-Web Page                          Coder(s)<br />
-index.html (Starting page)        Riley  (Almost done) <br /> 
-Store.html (Product List)         Sarah <br /> 
-Cart.html                           Riley (FML!)<br />
-Checkout.html (Including shipping calculation)            Sarah/Megan <br /> 
-Micro.html (main product)           Riley (Needs a little work)<br /> 
-3d-ink.html (Secondary product)           Tuan<br /> 
-Tough.html (Secondary product)          Tuan<br /> 
-Accessories.html (Secondary product)      Megan <br /> 
-Abs-r.html (Secondary product)          Tuan <br /> 
-Chameleon.html (secondary Product)        Tuan <br /> 
-About.html (includes contact us form)       Megan <br /> 
-Support/FAQ.html (also includes contact us form)          Sarah <br /> 
+Web Page &nbsp &nbsp Coder(s)<br />
+index.html (Starting page)&nbsp &nbsp         Riley  (Almost done) <br /> 
+Store.html (Product List) &nbsp &nbsp         Sarah <br /> 
+Cart.html             &nbsp &nbsp               Riley (FML!)<br />
+Checkout.html (Including shipping calculation)   &nbsp &nbsp          Sarah/Megan <br /> 
+Micro.html (main product)     &nbsp &nbsp       Riley (Needs a little work)<br /> 
+3d-ink.html (Secondary product)    &nbsp &nbsp        Tuan<br /> 
+Tough.html (Secondary product)   &nbsp &nbsp        Tuan<br /> 
+Accessories.html (Secondary product)  &nbsp &nbsp     Megan <br /> 
+Abs-r.html (Secondary product)       &nbsp &nbsp    Tuan <br /> 
+Chameleon.html (secondary Product)     &nbsp &nbsp    Tuan <br /> 
+About.html (includes contact us form)   &nbsp &nbsp     Megan <br /> 
+Support/FAQ.html (also includes contact us form)     &nbsp &nbsp      Sarah <br /> 
 
