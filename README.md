@@ -6,12 +6,12 @@ The code for the website is within the folders above. You can write your code di
 <br /> 
 
 Allocation of Content: <br /> 
-Web Page                          Coder(s)<br /> 
-index.html (Starting page)        Riley <br />       
+Web Page                          Coder(s)<br />
+index.html (Starting page)        Riley  (Almost done) <br /> 
 Store.html (Product List)         Sarah <br /> 
-Cart.html                           Riley<br /> 
+Cart.html                           Riley (FML!)<br />
 Checkout.html (Including shipping calculation)            Sarah/Megan <br /> 
-Micro.html (main product)           Riley<br /> 
+Micro.html (main product)           Riley (Needs a little work)<br /> 
 3d-ink.html (Secondary product)           Tuan<br /> 
 Tough.html (Secondary product)          Tuan<br /> 
 Accessories.html (Secondary product)      Megan <br /> 
