@@ -20,7 +20,92 @@
 	<!-- END OF BOOTSTRAP CODE!!!--> 
 	
 	
-<!-- TOOK OUT HEADER SO THAT I CAN GRAB FROM INDEX WHEN COMPLETED --> 
+<nav>
+	<style> 
+ 	 .headbutton {
+	 	  color: #FF4500;
+ 		  background-color: black; 
+		  font-size: 24px;
+		  padding: 5px;
+		  border: black;
+		  max-height: 40px;
+		}	
+				
+		.nav_buttons{ 
+		float: right;
+		margin-right: 15px;
+		padding: 5px;
+		
+		 }  
+	.header{
+			height: 50px;
+			background-color: black;
+			margin-right: calc(-1 * (100vw - 100%));
+       		margin-left: auto;
+        	padding-left: 1px;
+        	padding-right: 1px;
+	}
+	
+	.head-img{
+			  height: 50px;
+			  width: 100px;
+			  
+	}
+	.headbutton_store{
+			color: #FF4500;
+ 		  	background-color: black; 
+		  	font-size: 24px;
+		  	padding: 5px;
+		  	border: black;
+		  	max-height:40px;
+		  	padding-right: 15px;
+						}
+						
+	.btn{ 
+			background-color: black;
+			overflow:hidden;
+			width: 100%;
+			position: relative;
+			color: #FF4500;
+			float:right;
+			}
+			
+	.dropdown-menu{ 
+			background-color: black;
+			color: white; 
+			font-size: 24px;
+			padding-right: 20px;
+			float: right; 
+			}
+			
+</style> 
+
+<div class="header" id="header">
+	 <div class="header" style="color: black; padding=0px;">
+        <a href="http://barney.gonzaga.edu/~rdove/Novo/index.html" ><img src="http://barney.gonzaga.edu/~rdove/Novo/media/novo_logo.jpg" class="head-img"/></a>
+		<div class="nav_buttons" align="right">
+			<div class="hidden-xs hidden-sm"
+				<span><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/about-us.html"><button class="headbutton" type="button">About Us</button></a></span>
+            	<span><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/contact-us.html"><button class="headbutton" type="button" >Contact Us</button></a></span>
+				<span><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/products.html"><button class="headbutton_store dropdown-toggle" type="button" ><b>Store</b></button></a></span>
+			</div> 
+			
+		<div class="dropdown">
+    		<button class="headbutton dropdown-toggle visible-xs visible-sm" type="button" data-toggle="dropdown">Menu
+		    <span class="caret"></span></button>
+		    <ul class="dropdown-menu pull-right" style="float: right;">
+		      <li><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/products.html">Store</a></li>
+		      <li><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/about-us.html">About Us</a></li>
+		      <li><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/contact-us.html">Contact Us</a></li>
+		    </ul>
+		  </div>
+		</div>
+	</div> 
+</div>
+</nav>
+	
+	
+	
 
 <body> 
   <style> 
@@ -68,7 +153,8 @@
 
 	<div id="description">
 		 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" align="center">
-		 <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7"> 
+		 	<div class="hidden-xs hidden-sm col-md-1 col-lg-1"></div>
+		 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> 
 			 <p> The Micro 3D printer is the first truly consumer 3D printer. Some of the materials that the Micro can print with include PLA, ABS, ABS-R, 
 			 Tough, Chameleon, and Nylon. The Micro Retail Edition comes with one free spool of PLA filament, as well as an industry-leading 1 year warranty 
 			 to cover any issues that you may have. Purchasing from Novo Technology Solution, all warranty costs are covered and as soon as we receive your 
@@ -91,10 +177,9 @@
 		 	<select name="color" id="picDD" required>
     			<option value="" disabled="disabled" selected="selected">
    				<option value="1">Blue 
-    			<option value="5">Green
+    			<option value="4">Green
     			<option value="3">Orange
     			<option value="0">Black
-    			<option value="4">White
     			<option value="2">Clear
     				</option>
 			</select>
@@ -112,7 +197,6 @@
     "http://barney.gonzaga.edu/~rdove/Novo/media/Blue Printer.png",
     "http://barney.gonzaga.edu/~rdove/Novo/media/Clear Printer.png",
     "http://barney.gonzaga.edu/~rdove/Novo/media/Orange Printer.png",
-    "http://barney.gonzaga.edu/~rdove/Novo/media/White Printer.png",
     "http://barney.gonzaga.edu/~rdove/Novo/media/Green Printer.png",];
 $('#picDD').change(function () {
     var val = parseInt($('#picDD').val());
