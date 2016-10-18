@@ -129,7 +129,14 @@
 	<div id="information" style="min-height: 1200px;">
 		<div class="mini-box">	   
 			<div class="row" align="center">
-			  <h1 id="title">The Micro 3D Printer </h1>
+				
+			<!-- Still not correct, but need DB linkage --> 
+			  <?php $sql= "SELECT 'ID', 'Title' FROM Products WHERE 'ID'= 1 ?>
+			<h1 id="title"> <?=$Title?> </h1> 
+
+			<!-- End of PHP--> 
+				
+				
 			 	<div class="col-sm-12 col-md-12 col-lg-12" align="center">
 			 		<img id="retail" src="http://barney.gonzaga.edu/~rdove/Novo/media/All5.PNG" style="max-width: 90%; max-height: 500px; padding-bottom: 50px;" />
 			</div>
