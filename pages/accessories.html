@@ -1,4 +1,260 @@
-<!DOCTYPE html> 
-<html> 
-Test
-</html> 
+<!DOCTYPE html>
+
+<!-- Makes the webpage not go over the maximum width -->
+<style>
+	html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+	}
+</style>
+
+<html lang="en">
+  <head style="max-width=99%;">
+  	<title>Welcome to Novo Technology Solution!</title>
+    <meta charset="utf-8">
+    <!-- Bootstrap code. Not learned in class, but we will get Extra Credit!!!!! --> 
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 	   
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- END OF BOOTSTRAP CODE!!!--> 
+	
+	
+<nav>
+	<style> 
+ 	 .headbutton {
+	 	  color: #FF4500;
+ 		  background-color: black; 
+		  font-size: 24px;
+		  padding: 5px;
+		  border: black;
+		  max-height: 40px;
+		}	
+				
+		.nav_buttons{ 
+		float: right;
+		margin-right: 15px;
+		padding: 5px;
+		
+		 }  
+	.header{
+			height: 50px;
+			background-color: black;
+			margin-right: calc(-1 * (100vw - 100%));
+       		margin-left: auto;
+        	padding-left: 1px;
+        	padding-right: 1px;
+	}
+	
+	.head-img{
+			  height: 50px;
+			  width: 100px;
+			  
+	}
+	.headbutton_store{
+			color: #FF4500;
+ 		  	background-color: black; 
+		  	font-size: 24px;
+		  	padding: 5px;
+		  	border: black;
+		  	max-height:40px;
+		  	padding-right: 15px;
+						}
+						
+	.btn{ 
+			background-color: black;
+			overflow:hidden;
+			width: 100%;
+			position: relative;
+			color: #FF4500;
+			float:right;
+			}
+			
+	.dropdown-menu{ 
+			background-color: black;
+			color: white; 
+			font-size: 24px;
+			padding-right: 20px;
+			float: right; 
+			}
+
+			
+</style> 
+
+<div class="header" id="header">
+	 <div class="header" style="color: black; padding=0px;">
+        <a href="http://barney.gonzaga.edu/~rdove/Novo/index.html" ><img src="http://barney.gonzaga.edu/~rdove/Novo/media/novo_logo.jpg" class="head-img"/></a>
+		<div class="nav_buttons" align="right">
+			<div class="hidden-xs hidden-sm"
+				<span><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/about-us.html"><button class="headbutton" type="button">About Us</button></a></span>
+            	<span><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/contact-us.html"><button class="headbutton" type="button" >Contact Us</button></a></span>
+				<span><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/products.html"><button class="headbutton_store dropdown-toggle" type="button" ><b>Store</b></button></a></span>
+			</div> 
+			
+		<div class="dropdown">
+    		<button class="headbutton dropdown-toggle visible-xs visible-sm" type="button" data-toggle="dropdown">Menu
+		    <span class="caret"></span></button>
+		    <ul class="dropdown-menu pull-right" style="float: right;">
+		      <li><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/products.html">Store</a></li>
+		      <li><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/about-us.html">About Us</a></li>
+		      <li><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/contact-us.html">Contact Us</a></li>
+		    </ul>
+		  </div>
+		</div>
+	</div> 
+</div>
+</nav>
+	
+	
+	
+
+<body> 
+  <style> 
+	  #prod-img{
+	  float: left; 
+	  width: 350px;
+	  padding: 20px;
+	  border: black;
+	   }
+	   
+	   #title{ 
+	   	padding:30px;
+	   	padding-bottom: 50px;}
+	   
+	   /*#information{
+		border-bottom: 1px solid black;
+		padding-bottom:2cm;
+		}*/
+</style>
+		   
+	<div id="information" style="min-height: 1200px;">
+		<div class="mini-box">	   
+			<div class="row" align="center">
+			  <h1 id="title">The Micro 3D Printer </h1>
+			 	<div class="col-sm-12 col-md-12 col-lg-12" align="center">
+			 		<img id="retail" src="http://barney.gonzaga.edu/~rdove/Novo/media/All5.PNG" style="max-width: 90%; max-height: 500px; padding-bottom: 50px;" />
+			</div>
+	
+	<style>
+	.description{
+		  float: right;
+		  max-width: 300px;
+		  padding: 20px;
+		  
+		   }
+	.unibutton{   
+				color: #FF4500;
+		   	 	background-color: light gray; 
+				font-size: 22px;
+				padding: 8px;
+				border-color: black;
+				box-shadow: none;
+				}	
+    </style>
+
+	<div id="description">
+		 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" align="center">
+		 	<div class="hidden-xs hidden-sm col-md-1 col-lg-1"></div>
+		 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> 
+			 <p> The Micro 3D printer is the first truly consumer 3D printer. Some of the materials that the Micro can print with include PLA, ABS, ABS-R, 
+			 Tough, Chameleon, and Nylon. The Micro Retail Edition comes with one free spool of PLA filament, as well as an industry-leading 1 year warranty 
+			 to cover any issues that you may have. Purchasing from Novo Technology Solution, all warranty costs are covered and as soon as we receive your 
+			 printer, another will be sent to you in 1-2 business days. </p>
+		 </div>
+	<form action="addToCart" class="col-sm-6 col-md-2 col-lg-2">
+	 <div class="row" align="center"> 
+	 	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="quantity">
+			<h4>Quantity</h4>
+		 	<select required>
+    			<option value="1" selected="selected">1</option>
+    			<option value="2">2</option>
+    			<option value="3">3</option>
+    			<option value="4">4</option>
+    			<option value="5">5</option>
+			</select>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<h4>Color</h4>
+		 	<select name="color" id="picDD" required>
+    			<option value="" disabled="disabled" selected="selected">
+   				<option value="1">Blue 
+    			<option value="4">Green
+    			<option value="3">Orange
+    			<option value="0">Black
+    			<option value="2">Clear
+    				</option>
+			</select>
+		</div>
+		</div> 
+		</form>
+		<br /> 
+		<div id="atc" class="col-xs-12 col-sm-6 col-md-2 col-lg-2"> 
+			<button class="unibutton" align="right">Add To Cart </button> <!-- NEED TO CONNECT TO DB!!! --> 
+		 </div>
+		
+		<script> 
+		var pictureList = [
+    "http://barney.gonzaga.edu/~rdove/Novo/media/Black Printer.png",
+    "http://barney.gonzaga.edu/~rdove/Novo/media/Blue Printer.png",
+    "http://barney.gonzaga.edu/~rdove/Novo/media/Clear Printer.png",
+    "http://barney.gonzaga.edu/~rdove/Novo/media/Orange Printer.png",
+    "http://barney.gonzaga.edu/~rdove/Novo/media/Green Printer.png",];
+$('#picDD').change(function () {
+    var val = parseInt($('#picDD').val());
+    $('#retail').attr("src",pictureList[val]);
+});
+			</script>
+		</div>
+		</div>
+	</div>
+</div>
+		
+	</div>
+	</div>
+</body>
+
+<footer> 
+	<style> 
+	   footer{ 
+		   background-color: gray;
+		   padding: 0px;
+		   display: block;
+		   bottom: 0;
+		   width: 99%;
+		   height: 50px;
+	}
+	
+	   #novo_logo{
+	   	  height: 50px;
+		  width: 100px;
+		  padding-left: 5px;
+		  
+		  }
+		  
+		 .footer_links{
+		 	text-align: right;
+		 	padding: 5px;
+		 }
+		  
+	   a{
+		   font-size: 18px;
+		   padding: 10px;
+		   color: black;
+		   text-decoration: underline;		    
+	   }
+	</style> 
+	   
+	   <div id="footer"> 
+	 <div class="row"> 
+		<div class="col-sm-2 col-md-2 col-lg-2">
+		 <img href="http://barney.gonzaga.edu/~rdove/Novo/index.html" src="http://barney.gonzaga.edu/~rdove/Novo/media/novo_logo.jpg" id="novo_logo" align="left" />
+		 </div>
+		<div id="footer_links" class="col-sm-10 col-md-10 col-lg-10" align="right"><br /> 
+			<a href="http://barney.gonzaga.edu/~rdove/Novo">Home</a> &nbsp; 
+			<a href="http://barney.gonzaga.edu/~rdove/Novo/pages/products.html">Products</a>  &nbsp;  
+			<a href="http://barney.gonzaga.edu/~rdove/Novo/pages/contact-us.html">Contact Us</a> &nbsp;  &nbsp; 
+			</div> 
+		</div>
+	  </div>		
+	 </footer>  
+</html>
