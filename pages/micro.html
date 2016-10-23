@@ -10,7 +10,7 @@
 
 <html lang="en">
   <head style="max-width=99%;">
-  	<title>Welcome to Novo Technology Solution!</title>
+  	<title>The Micro 3D Printer</title>
     <meta charset="utf-8">
     <!-- Bootstrap code. Not learned in class, but we will get Extra Credit!!!!! --> 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -18,7 +18,7 @@
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 	   
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- END OF BOOTSTRAP CODE!!!--> 
-	
+</head>	
 	
 <nav>
 	<style> 
@@ -71,12 +71,12 @@
 			}
 			
 	.dropdown-menu{ 
-			background-color: black;
-			color: white; 
+			background-color: white; 
 			font-size: 24px;
 			padding-right: 20px;
 			float: right; 
 			}
+
 			
 </style> 
 
@@ -129,14 +129,7 @@
 	<div id="information" style="min-height: 1200px;">
 		<div class="mini-box">	   
 			<div class="row" align="center">
-				
-			<!-- Still not correct, but need DB linkage --> 
-			  <?php $sql= "SELECT 'ID', 'Title' FROM Products WHERE 'ID'= 1 ?>
-			<h1 id="title"> <?=$Title?> </h1> 
-
-			<!-- End of PHP--> 
-				
-				
+			  <h1 id="title">The Micro 3D Printer </h1>
 			 	<div class="col-sm-12 col-md-12 col-lg-12" align="center">
 			 		<img id="retail" src="http://barney.gonzaga.edu/~rdove/Novo/media/All5.PNG" style="max-width: 90%; max-height: 500px; padding-bottom: 50px;" />
 			</div>
@@ -195,7 +188,7 @@
 		</form>
 		<br /> 
 		<div id="atc" class="col-xs-12 col-sm-6 col-md-2 col-lg-2"> 
-			<button class="unibutton" align="right">Add To Cart </button> <!-- NEED TO CONNECT TO DB!!! --> 
+			<!-- <button class="unibutton" align="right">Add To Cart </button>  --><!-- NEED TO CONNECT TO DB!!! --> 
 		 </div>
 		
 		<script> 
