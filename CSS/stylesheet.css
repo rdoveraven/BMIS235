@@ -55,39 +55,5 @@
 			float: right; 
 			}
 			
-/*END HEADER*/
 
-
-
-
-/*FOOTER*/
-
-footer{ 
-		   background-color: gray;
-		   padding: 0px;
-		   display: block;
-		   bottom: 0;
-		   width: 99%;
-		   height: 50px;
-	}
-	
-	   #novo_logo{
-	   	  height: 50px;
-		  width: 100px;
-		  padding-left: 5px;
-		  
-		  }
-		  
-		 .footer_links{
-		 	text-align: right;
-		 	padding: 5px;
-		 }
-		  
-	   a{
-		   font-size: 18px;
-		   padding: 10px;
-		   color: black;
-		   text-decoration: underline;		    
-	   }
 	   
-/*END FOOTER*/
