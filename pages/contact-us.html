@@ -1,4 +1,115 @@
-<!DOCTYPE html> 
-<html> 
-Test
-</html> 
+<!DOCTYPE html>
+
+<!-- Makes the webpage not go over the maximum width -->
+<style>
+	html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+	}
+</style>
+
+<html lang="en">
+  <head style="max-width=99%;">
+  	<title>Tough 3D Ink</title>
+    <meta charset="utf-8">
+    <!-- Bootstrap code. Not learned in class, but we will get Extra Credit!!!!! --> 
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/stylesheet.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 	   
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- END OF BOOTSTRAP CODE!!!--> 
+</head>	
+	
+<nav>
+<div class="header" id="header">
+	 <div class="header" style="color: black; padding=0px;">
+        <a href="http://barney.gonzaga.edu/~rdove/Novo/index.html" ><img src="http://barney.gonzaga.edu/~rdove/Novo/media/novo_logo.jpg" class="head-img"/></a>
+		<div class="nav_buttons" align="right">
+			<div class="hidden-xs hidden-sm"
+				<span><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/contact-us.html"><button class="headbutton" type="button" >Contact Us</button></a></span>
+				<span><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/products.html"><button class="headbutton_store dropdown-toggle" type="button" ><b>Store</b></button></a></span>
+			</div> 
+			
+		<div class="dropdown">
+    		<button class="headbutton dropdown-toggle visible-xs visible-sm" type="button" data-toggle="dropdown">Menu
+		    <span class="caret"></span></button>
+		    <ul class="dropdown-menu pull-right" style="float: right;">
+		      <li><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/products.html">Store</a></li>
+		      <li><a href="http://barney.gonzaga.edu/~rdove/Novo/pages/contact-us.html">Contact Us</a></li>
+		    </ul>
+		  </div>
+		</div>
+	</div> 
+</div>
+</nav>
+	
+	
+	
+
+<body> 
+	<div id="contact"> 
+	<div id="title" align="center">
+		<h1> Contact Us</h1>
+	</div>
+	<div id="form">
+		<form action="mailto:rdoveraven@gmail.com" method="post" enctype="text/plain">
+			Name:<br>
+		<input type="text" name="name"><br>
+			E-mail:<br>
+		<input type="text" name="email" required=""><br>
+			Comment:<br>
+		<input type="text" name="comment" size="50" required=""><br><br>
+		<input type="submit" value="Send">
+		<input type="reset" value="Reset">
+		</form>
+	</div>
+	</div>
+  </body>
+
+<footer> 
+	<style> 
+	   footer{ 
+		   background-color: gray;
+		   padding: 0px;
+		   display: block;
+		   bottom: 0;
+		   width: 99%;
+		   height: 50px;
+		   position: fixed;
+	}
+	
+	   #novo_logo{
+	   	  height: 50px;
+		  width: 100px;
+		  padding-left: 5px;
+		  
+		  }
+		  
+		 .footer_links{
+		 	text-align: right;
+		 	padding: 5px;
+		 }
+		  
+	   a{
+		   font-size: 18px;
+		   padding: 10px;
+		   color: black;
+		   text-decoration: underline;		    
+	   }
+	</style> 
+	   
+	   <div id="footer"> 
+	 <div class="row"> 
+		<div class="col-sm-2 col-md-2 col-lg-2">
+		 <img href="http://barney.gonzaga.edu/~rdove/Novo/index.html" src="http://barney.gonzaga.edu/~rdove/Novo/media/novo_logo.jpg" id="novo_logo" align="left" />
+		 </div>
+		<div id="footer_links" class="col-sm-10 col-md-10 col-lg-10" align="right"><br /> 
+			<a href="http://barney.gonzaga.edu/~rdove/Novo">Home</a> &nbsp; 
+			<a href="http://barney.gonzaga.edu/~rdove/Novo/pages/products.html">Products</a>  &nbsp;  
+			<a href="http://barney.gonzaga.edu/~rdove/Novo/pages/contact-us.html">Contact Us</a> &nbsp;  &nbsp; 
+			</div> 
+		</div>
+	  </div>		
+	 </footer>  
+</html>
